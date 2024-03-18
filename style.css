@@ -121,3 +121,31 @@ nav {
 .main-button:hover {
   opacity: 0.8;
 }
+footer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: aqua;
+  height: 70px;
+}
+.footer-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-socials {
+  display: flex;
+}
+.footer-social-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-item {
+  margin-left: 26px;
+}
+.footer-social-item:hover {
+  opacity: 0.5;
+}
